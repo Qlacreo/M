@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_05/3204601/200128-kobe-bryant-cover-section-tease.jpg" />
+    <ion-card-header>
+      <ion-card-title>Kobe Bryant</ion-card-title>
+      <ion-card-subtitle>1978 - 2020</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      está considerado como uno de los mejores baloncestistas de todos los tiempos. Ganó cinco campeonatos de la NBA con los Lakers y dos medallas de oro olímpicas con la selección estadounidense
+    </ion-card-content>
+    <ion-button [routerLink]="['/detalle']" size="full"  fill="outline" color="success" shape="round">Ver más...</ion-button>
+  </ion-card>
+
+  
+  <ion-fab slot="fixed" vertical="bottom" horizontal="end">
+    <ion-fab-button>
+      <ion-icon name="chevron-up-circle"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button>
+        <ion-icon name="document"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button>
+        <ion-icon name="color-palette"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button>
+        <ion-icon name="globe"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+
+</ion-content>
